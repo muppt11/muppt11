@@ -31,7 +31,7 @@ LINE_H = 1.0  # line height as a multiple of font size
 
 def to_lines(img: Image.Image, cols: int, invert: bool, bg_cut: float,
              contrast: float, gamma: float, oval: float = 0.0,
-             detail: float = 0.0) -> list[str]:
+             detail: float = 0.0, brow_darken: int = 0) -> list[str]:
     img = ImageOps.exif_transpose(img).convert("RGB")
     w, h = img.size
     rows = max(1, round(h / w * cols * ADV / LINE_H))
@@ -91,6 +91,15 @@ def to_lines(img: Image.Image, cols: int, invert: bool, bg_cut: float,
             d = v if invert else 1 - v
             d = min(1.0, max(0.0, (d - 0.5) * contrast + 0.5)) ** gamma
             idx = int(d * (len(RAMP) - 1) + 0.5)
+            if brow_darken > 0 and idx <= 7:
+                xn = x / max(1, cols - 1)
+                yn = y / max(1, rows - 1)
+                in_brow = any(
+                    ((xn - cx) / 0.055) ** 2 + ((yn - 0.275) / 0.020) ** 2 < 1
+                    for cx in (0.43, 0.59)
+                )
+                if in_brow:
+                    idx = max(0, idx - brow_darken)
             if mp is not None and mp[x, y] == 0:
                 idx = 0
             row.append(RAMP[idx])
@@ -140,11 +149,16 @@ def main() -> None:
                     help="blank everything outside a head-shaped ellipse (try 0.9-1.0)")
     ap.add_argument("--detail", type=float, default=0.0,
                     help="local-contrast boost for faces (0-1.5; try 0.8)")
+    ap.add_argument("--brow-darken", type=int, default=0,
+                    help="darken existing eyebrow strokes on a centered face (try 1-3)")
     ap.add_argument("--contrast", type=float, default=1.35)
     ap.add_argument("--gamma", type=float, default=0.9)
     a = ap.parse_args()
 
-    lines = to_lines(Image.open(a.photo), a.cols, a.invert, a.bg_cut, a.contrast, a.gamma, a.oval, a.detail)
+    lines = to_lines(
+        Image.open(a.photo), a.cols, a.invert, a.bg_cut, a.contrast,
+        a.gamma, a.oval, a.detail, a.brow_darken
+    )
     svg = render(lines, a.font_size)
     out = Path(a.out)
     out.parent.mkdir(parents=True, exist_ok=True)
