@@ -15,7 +15,7 @@
 > Tanvi Muppala — Computer Science and Mathematics major at the University of Texas at Austin.
 > Previously a Software Engineering Intern at IBM, on the security team.
 
-Right now that's [CrossTalk](https://github.com/muppt11/CrossTalk) — it reads the READMEs of public GitHub repos and works out which ones are worth building together.
+Right now I'm building [CrossTalk](https://github.com/muppt11/CrossTalk). It reads the READMEs of public GitHub repos and works out which ones can be built off of each other.
 
 <img src="assets/h-stack.svg" alt="stack" width="640">
 
