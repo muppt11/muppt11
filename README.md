@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/ascii.svg" alt="ASCII portrait" width="560">
+<img src="assets/ascii.svg" alt="ASCII portrait" width="440">
 
 <img src="assets/hero.svg" alt="contributions in the last year" width="480">
 
