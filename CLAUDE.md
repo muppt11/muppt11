@@ -17,7 +17,7 @@ GitHub profile. Every graphic is a generated SVG - nothing is embedded from a th
 pip install -r requirements.txt
 python scripts/build_stats.py --mock                     # offline preview, fake data
 GH_TOKEN=... python scripts/build_stats.py --login NAME  # real data
-python scripts/make_portrait.py source/face_crop.jpg --invert --contrast 1.2 --gamma 1.0 --detail 0.7 --cols 100 --oval 0.95
+python scripts/make_portrait.py source/face_crop.jpg --invert --contrast 0.9 --gamma 1.4 --detail 0.8 --cols 140 --oval 0.95
 ```
 Portrait flags: `--cols` detail, `--invert` bright=dense, `--gamma/--contrast` tone, `--detail` local
 contrast (eyes/lips), `--oval` blank outside a head-shaped ellipse, `--bg-cut` blank the background colour.
