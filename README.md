@@ -24,10 +24,10 @@ Right now that's [CrossTalk](https://github.com/muppt11/CrossTalk) — it reads 
 <img src="assets/h-projects.svg" alt="projects" width="640">
 
 **[CrossTalk](https://github.com/muppt11/CrossTalk)** · `python, javascript`  
-Compares the READMEs of 2–10 public repositories and scores each pair on how composable or redundant they are.
+Compares the READMEs of 2–10 public repositories and scores each pair on how composable or redundant they are. Based on that, you can copy data from existing repos to build new repos.
 
 **[ClassScheduler](https://github.com/muppt11/ClassScheduler)** · `c#, blazor`  
-Assigns university courses to 246 real UT Austin classrooms, and explains why it picked each room.
+Assigns university courses to 246 real UT Austin classrooms, and explains why it picked each room. Automates class scheduling at UT Austin.
 
 <img src="assets/h-stats.svg" alt="stats" width="640">
 
@@ -41,7 +41,7 @@ Assigns university courses to 246 real UT Austin classrooms, and explains why it
 
 <sub>
 
-Every graphic here is generated, not embedded from anyone else's server.
+Graphics:
 `ascii.svg` is a photo pushed through a character ramp by `scripts/make_portrait.py`;
 the stat graphics and these section headings are drawn by
 [a scheduled action](.github/workflows/stats.yml) straight from the GitHub GraphQL API,
