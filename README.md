@@ -1,16 +1,53 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**muppt11/muppt11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="assets/ascii.svg" alt="ASCII portrait" width="560">
 
-Here are some ideas to get you started:
+<img src="assets/hero.svg" alt="contributions in the last year" width="480">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<sub>
+<a href="https://linkedin.com/in/tanvi-muppala/">linkedin</a>
+</sub>
+
+</div>
+
+<img src="assets/h-about.svg" alt="about" width="640">
+
+> Tanvi Muppala — Computer Science and Mathematics major at the University of Texas at Austin.
+> Previously a Software Engineering Intern at IBM, on the security team.
+
+Right now that's [CrossTalk](https://github.com/muppt11/CrossTalk) — it reads the READMEs of public GitHub repos and works out which ones are worth building together.
+
+<img src="assets/h-stack.svg" alt="stack" width="640">
+
+`python` · `typescript` · `javascript` · `c#` · `c` · `react` · `next` · `tailwind` · `supabase` · `streamlit` · `blazor`
+
+<img src="assets/h-projects.svg" alt="projects" width="640">
+
+**[CrossTalk](https://github.com/muppt11/CrossTalk)** · `python, javascript`  
+Compares the READMEs of 2–10 public repositories and scores each pair on how composable or redundant they are.
+
+**[ClassScheduler](https://github.com/muppt11/ClassScheduler)** · `c#, blazor`  
+Assigns university courses to 246 real UT Austin classrooms, and explains why it picked each room.
+
+<img src="assets/h-stats.svg" alt="stats" width="640">
+
+<img src="assets/streak.svg" alt="streaks" width="480">
+
+<img src="assets/langs.svg" alt="languages" width="620">
+
+<img src="assets/year.svg" alt="the year" width="645">
+
+<img src="assets/h-about-this-page.svg" alt="about this page" width="640">
+
+<sub>
+
+Every graphic here is generated, not embedded from anyone else's server.
+`ascii.svg` is a photo pushed through a character ramp by `scripts/make_portrait.py`;
+the stat graphics and these section headings are drawn by
+[a scheduled action](.github/workflows/stats.yml) straight from the GitHub GraphQL API,
+once a day, committing only what changed. They animate with SMIL inside the SVG, because
+GitHub strips scripts from READMEs. The typeface is JetBrains Mono, subset to just the
+characters each graphic draws and inlined as base64. Language totals cover public
+repositories only. `year.svg` uses the portrait's character ramp: `:` `+` `#` `@`, quiet to loud.
+
+</sub>

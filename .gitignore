@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# your raw photo stays local - this repo is public
+source/
+
+# the kit archive itself - its contents are extracted in this repo
+claude-code-kit.zip
