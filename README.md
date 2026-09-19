@@ -39,15 +39,16 @@ Assigns university courses to 246 real UT Austin classrooms, and explains why it
 
 <img src="assets/h-about-this-page.svg" alt="about this page" width="640">
 
-<sub>
+**Graphics**
 
-Graphics
 `ascii.svg` is a photo pushed through a character ramp by `scripts/make_portrait.py`.
-the stat graphics and these section headings are drawn by
-[a scheduled action](.github/workflows/stats.yml) straight from the GitHub GraphQL API,
-once a day, committing only what changed. They animate with SMIL inside the SVG, because
-GitHub strips scripts from READMEs. The typeface is JetBrains Mono, subset to just the
-characters each graphic draws and inlined as base64. Language totals cover public
-repositories only. `year.svg` uses the portrait's character ramp from quiet to loud.
 
-</sub>
+The stat graphics and section headings are drawn once a day by
+[a scheduled action](.github/workflows/stats.yml) using the GitHub GraphQL API.
+It commits only what changed.
+
+The graphics animate with SMIL inside the SVG because GitHub strips scripts from READMEs.
+The typeface is JetBrains Mono with only the characters each graphic needs included and inlined as base64.
+
+Language totals cover public repositories only.
+`year.svg` uses the portrait's character ramp from quiet to loud.
