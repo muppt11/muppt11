@@ -13,9 +13,9 @@
 <img src="assets/h-about.svg" alt="about" width="640">
 
 > Tanvi Muppala is a Computer Science and Mathematics major at the University of Texas at Austin.
-> Previously a Software Engineering Intern at IBM, on the security team.
+> Previously worked as a Software Engineering Intern at IBM.
 
-Right now I'm building [CrossTalk](https://github.com/muppt11/CrossTalk). It reads the READMEs of public GitHub repos and works out which ones can be built off of each other.
+Click here to view my portfolio: [https://muppt11.github.io/portfolio/](https://muppt11.github.io/portfolio/)
 
 <img src="assets/h-stack.svg" alt="stack" width="640">
 
