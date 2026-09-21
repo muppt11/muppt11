@@ -15,7 +15,7 @@
 > Tanvi Muppala is a Computer Science and Mathematics major at the University of Texas at Austin.
 > Previously worked as a Software Engineering Intern at IBM.
 
-Click here to view my portfolio: [https://muppt11.github.io/portfolio/](https://muppt11.github.io/portfolio/)
+Click here to view my portfolio: <a href="https://muppt11.github.io/portfolio/" target="_blank" rel="noopener noreferrer">https://muppt11.github.io/portfolio/</a>
 
 <img src="assets/h-stack.svg" alt="stack" width="640">
 
