@@ -26,8 +26,17 @@ Click here to view my portfolio: <a href="https://muppt11.github.io/portfolio/" 
 **[CrossTalk](https://github.com/muppt11/CrossTalk)** · `python, javascript`  
 Compares the READMEs of 2 to 10 public repositories and scores each pair on how composable or redundant they are. Based on that, you can copy data from existing repos to build new repos.
 
-**[ClassScheduler](https://github.com/muppt11/ClassScheduler)** · `c#, blazor`  
+**[ClassScheduler](https://github.com/muppt11/ClassScheduler)** · `c#, blazor` · [live](https://muppt11.github.io/ClassScheduler/)  
 Assigns university courses to 246 real UT Austin classrooms, and explains why it picked each room. Automates class scheduling at UT Austin.
+
+**[ezPark](https://github.com/muppt11/ezPark)** · `typescript, next, prisma` · [project page](https://muppt11.github.io/ezPark/)  
+Event day driveway parking. Drivers reserve a neighbor's driveway near the stadium, hosts list theirs in about a minute, and bookings can never oversell.
+
+**[Magic Mirror Monopoly](https://github.com/muppt11/magic-monopoly)** · `python, javascript, three.js` · [project page](https://muppt11.github.io/magic-monopoly/)  
+HackTX team project. A fairy tale Monopoly board with motorized tokens, camera dice reading, and a narrating Magic Mirror so far away family can play together.
+
+**[Lyrix](https://github.com/muppt11/Lyrix)** · `typescript, next, fastapi` · [live demo](https://muppt11.github.io/Lyrix/)  
+One analytics dashboard for commerce, social, and creator platforms, with a pluggable data provider layer.
 
 <img src="assets/h-stats.svg" alt="stats" width="640">
 
